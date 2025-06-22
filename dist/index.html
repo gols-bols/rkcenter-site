@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>РК-Центр — Сервисный центр</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="page">
+  <header class="header">
+    <div class="header__logo">
+      <img src="img/logo.png" alt="РК-Центр Логотип">
+    </div>
+    <div class="header__info">
+      <h1 class="header__title">РК-Центр</h1>
+      <p class="header__desc">Сервисный центр</p>
+      <div class="header__contacts">Тел: +7 (919) 098-90-75 | Email: info@rk-center.ru</div>
+    </div>
+    <div class="header__lang-switcher">
+      <button class="lang-switcher__btn" data-lang="ru">RU</button>
+      <button class="lang-switcher__btn" data-lang="en">EN</button>
+    </div>
+  </header>
+  <nav class="main-menu">
+    <ul class="main-menu__list">
+      <li class="main-menu__item"><a href="index.html">О компании</a></li>
+      <li class="main-menu__item main-menu__item--has-dropdown">
+        <a href="news.html">Новости</a>
+        <ul class="main-menu__dropdown">
+          <li><a href="#">Архив новостей</a></li>
+        </ul>
+      </li>
+      <li class="main-menu__item"><a href="products.html">Продукция</a></li>
+      <li class="main-menu__item"><a href="how-we-work.html">Как мы работаем</a></li>
+      <li class="main-menu__item"><a href="trainings.html">Обучение и семинары</a></li>
+      <li class="main-menu__item"><a href="partners.html">Партнеры/Агенты</a></li>
+      <li class="main-menu__item"><a href="contacts.html">Контакты</a></li>
+      <li class="main-menu__item"><a href="sitemap.html">Карта сайта</a></li>
+    </ul>
+  </nav>
+  <div class="layout">
+    <aside class="side-menu">
+      <nav class="side-menu__nav">
+        <ul class="side-menu__list">
+          <li class="side-menu__item"><a href="products.html">Продукция</a></li>
+          <li class="side-menu__item"><a href="trainings.html">Обучение</a></li>
+          <li class="side-menu__item"><a href="partners.html">Партнеры</a></li>
+        </ul>
+      </nav>
+    </aside>
+    <main class="main-content">
+      <section class="about">
+        <h2>О компании</h2>
+        <p>РК-Центр — ведущий сервисный центр по ремонту и обслуживанию промышленного оборудования. Мы работаем на рынке более 10 лет, предоставляя качественные услуги и современное оборудование для предприятий по всей России. Наши специалисты проходят регулярное обучение, а сервисные центры оснащены самым современным оборудованием.</p>
+        <div class="slider">
+          <button class="slider__btn slider__btn--prev">&#8592;</button>
+          <div class="slider__wrapper">
+            <img src="img/slide1.jpg" class="slider__img active" alt="Слайд 1">
+            <img src="img/slide2.jpg" class="slider__img" alt="Слайд 2">
+            <img src="img/slide3.jpg" class="slider__img" alt="Слайд 3">
+          </div>
+          <button class="slider__btn slider__btn--next">&#8594;</button>
+        </div>
+        <a href="products.html" class="btn">Продукция</a>
+        <a href="contacts.html" class="btn">Контакты</a>
+      </section>
+    </main>
+  </div>
+  <footer class="footer">
+    <div class="footer__copyright">&copy; 2025 РК-Центр</div>
+  </footer>
+  <script src="js/main.js"></script>
+</body>
+</html> 
